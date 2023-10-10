@@ -1,0 +1,80 @@
+:root{
+    --mainColor:#631f71;
+}
+body
+{
+    background-color: #1b1b1d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.gradient{
+    background-image: linear-gradient(to right top, #424297, #4851a3, #4f60ae, #576fb9, #617ec4, #627cc3, #647bc1, #6579c0, #5f66b2, #5b53a2, #593f91, #562a7f);    overflow: hidden;
+    height: 100vh;
+    overflow: hidden;
+}
+.catcher{
+    color: #631f71;
+    transition: 0.3s;
+}
+.catcher:hover{
+    text-shadow: 5px 5px 1px rgba(39, 27, 176, 0.4);
+}
+
+.home-container{
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--mainColor);
+}
+
+.shadow-box{
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.6);
+}
+#logOutBtn{
+    font-size: 25px;
+}
+.btn-outline-dark{
+    color: #43214a;
+    background-color: transparent !important;
+}
+.btn-outline-dark:hover{
+    text-shadow: 5px 5px 1px rgba(39, 27, 176, 0.4);
+    color: #8994b4;
+}
+
+p{
+    font-size: 20px;
+}
+h1 {
+    color: var(--mainColor);
+    font-size: 50px;
+    transition: 0.3s all;
+    cursor: context-menu;
+}
+h1:hover{
+    text-shadow: 5px 5px 1px rgba(39, 27, 176, 0.4);
+}
+.form-control:focus 
+{
+    border-color:var(--mainColor);
+    box-shadow: none;
+}
+::placeholder{
+    color: var(--mainColor) !important;
+}
+span{
+    color: var(--mainColor);
+    transition: 0.3s all;
+}
+span:hover{
+    color: rgb(242, 230, 66);
+    text-decoration: underline;
+}
+.my-btn .btn
+{
+    border:1px solid var(--mainColor);
+    color: var(--mainColor);
+}
+.my-btn  .btn:hover
+{
+    background-color: var(--mainColor);
+    color: white;
+}

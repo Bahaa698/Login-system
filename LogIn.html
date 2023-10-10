@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Log-In Page</title>
+</head>
+<body>
+    <section class="gradient">
+        <section id="logIn-page">
+            <div class="container">
+                <div class="login-box w-75 m-auto text-center shadow-box p-5 my-5">
+                    <div class="title pb-3">
+                        <h1>Smart Login System</h1>
+                    </div>
+                    <div class="inputs">
+                        <input type="email" id="emailInput"  class="form-control bg-transparent mb-4 " placeholder="Type Your email" >
+                        <input type="password" id="passwordInput" class="form-control mb-4 bg-transparent" placeholder="Type Your password" >
+                        <p class="d-none" id="alert"></p>
+                    </div>
+                    <div class="my-btn">
+                        <a id="loginBtn" class="btn w-100">Log-In</a>
+                    </div>
+                    <div class="question-msg mt-3">
+                        <p class="text-white">Don't have an account? <a href="signUp.html" class="text-decoration-none text-white"><span>Sign-Up</span></a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/logIn.js"></script>
+</body>
+</html>
